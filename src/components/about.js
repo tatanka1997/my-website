@@ -49,20 +49,20 @@ const About = () => {
         Currently, I am employed as a Conference Network Technician, where I
         handle network-related responsibilities and contribute to various
         projects. Alongside my professional work, I actively engage in personal
-        projects that allow me to explore and expand my technical abilities. 
-         Please feel free to schedule a meeting by clicking the link below.
+        projects that allow me to explore and expand my technical abilities.
+        Please feel free to schedule a meeting by clicking the link below.
       </p>
       <p
         style={{
           color: colors.yellow,
         }}
       >
-        During my free time, will be watching AC Milan, the Celtics, and the 
-        Canadiens. Additionally, I enjoy engaging in discussions about AI, 
-        cryptocurrency, and various books I'm  currently reading. If you would
-        like to get in touch, please don't hesitate to reach out to me via email 
-        or any of the social platforms I have provided below. Thank you, and I 
-        look forward to connecting with you soon!
+        During my free time, will be watching AC Milan, Boston Celtics, and
+        Montreal Canadiens. Additionally, I enjoy engaging in discussions about
+        AI, cryptocurrency, and various books I'm currently reading. If you
+        would like to get in touch, please don't hesitate to reach out to me via
+        email or any of the social platforms I have provided below. Thank you,
+        and I look forward to connecting with you soon!
       </p>
       <div
         style={{

@@ -41,7 +41,7 @@ const Link = () => {
             <a href="https://github.com/tatanka1997/my-website" style={{color: colors.yellow}} target="_blank">Personal Website</a>
           </li>
           <li>
-            <a href="#" style={{color: colors.yellow}}>Link 4</a>
+            <a href="https://github.com/tatanka1997/django-project" style={{color: colors.yellow}} target="_blank">Reccomender</a>
           </li>
         </ul>
       </div>
@@ -56,13 +56,7 @@ const Link = () => {
             <a href="https://www.singledigits.com/" style={{color: colors.yellow}} target="_blank">Single Digits</a>
           </li>
           <li>
-            <a href="https://class-solutions.net/" style={{color: colors.yellow}} target="_blank">Link 2</a>
-          </li>
-          <li>
-            <a href="#" style={{color: colors.yellow}}>Link 3</a>
-          </li>
-          <li>
-            <a href="#" style={{color: colors.yellow}}>Link 4</a>
+            <a href="https://class-solutions.net/" style={{color: colors.yellow}} target="_blank">Class Heuristic Solutions</a>
           </li>
         </ul>
       </div>

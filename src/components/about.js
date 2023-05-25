@@ -32,29 +32,38 @@ const About = () => {
           color: colors.yellow,
         }}
       >
-        Hello, my name is Erik Nurja and I'm a Software Engineer. I graduated
-        with a Bachelors in Computer Science from San Diego State University. I
-        have 2 years of experience in software development.
+        Hello, my name is Erik Nurja, and I'm a Software Engineer. I hold a
+        Bachelor's degree in Computer Science from San Diego State University,
+        where I gained a strong foundation in software development. With 2 years
+        of professional experience in software development, I have honed my
+        skills and expertise in this field. In addition to my software
+        engineering background, I also have valuable experience working as a
+        Network Engineer, which has provided me with a comprehensive
+        understanding of network infrastructure
       </p>
       <p
         style={{
           color: colors.yellow,
         }}
       >
-        I am currently working as a Conference Network Technician but also
-        working on many different projects on my own. I am open to chat for
-        different opportunites that may be interesting. Please feel free to
-        schedule a meeting by click the link below.
+        Currently, I am employed as a Conference Network Technician, where I
+        handle network-related responsibilities and contribute to various
+        projects. Alongside my professional work, I actively engage in personal
+        projects that allow me to explore and expand my technical abilities. 
+         Please feel free to schedule a meeting by clicking the link below.
       </p>
       <p
         style={{
           color: colors.yellow,
         }}
       >
-        On my free time, I will be either watching the Albanian National team ,
-        AC  Milan the Celtics or the Canadiens. I love talking about AI, crypto,
-        sports, or different books I'm reading. Feel free to reach out to me via
-        email or any of the social platforms I have linked below!
+        During my free time, I am an avid supporter of the Albanian National
+        team, AC Milan, the Celtics, and the Canadiens. Additionally, I enjoy
+        engaging in discussions about AI, cryptocurrency, and various books I'm
+        currently reading. If you would like to get in touch, please don't
+        hesitate to reach out to me via email or any of the social platforms I
+        have provided below. Thank you, and I look forward to connecting with
+        you soon!
       </p>
       <div
         style={{

@@ -1,15 +1,11 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/how-to/querying-data/use-static-query/
- */
-
-import * as React from "react"
-import { useStaticQuery, graphql } from "gatsby"
-
-import Header from "./header"
-import "./layout.css"
+import * as React from "react";
+import { useStaticQuery, graphql } from "gatsby";
+import { colors } from "../links";
+import Header from "./header";
+import Footer from "./footer";
+import About from "./about";
+import Link from "./link";
+import { Helmet } from "react-helmet";
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -20,32 +16,57 @@ const Layout = ({ children }) => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <>
+      <Helmet>
+        <style>{`
+          html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+          }
+        `}</style>
+      </Helmet>
+      <div
+       style={{
+        display: "flex",
+        flexDirection: "column",
+        minHeight: "2vh",
+        backgroundColor: colors.lblue,
+        minWidth: "var(--size-content)", // Set the minimum width
+          margin: "0 auto",
+      }}
+      >
+      </div>
+
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div
         style={{
-          margin: `0 auto`,
-          maxWidth: `var(--size-content)`,
-          padding: `var(--size-gutter)`,
+          display: "flex",
+          flexDirection: "column",
+          minHeight: "96.5vh",
+          backgroundColor: colors.lblue,
+          
         }}
       >
-        <main>{children}</main>
-        <footer
+           <About />
+        <div
           style={{
-            marginTop: `var(--space-5)`,
-            fontSize: `var(--font-sm)`,
+            flex: "1",
+            margin: "0 auto",
+            maxWidth: "var(--size-content)",
+            padding: "var(--size-gutter)",
+            backgroundColor: colors.lblue
           }}
         >
-          © {new Date().getFullYear()} &middot; Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+        </div>
+        <Link />
+        <Footer />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;

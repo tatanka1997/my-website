@@ -16,3 +16,25 @@ exports.createPages = async ({ actions }) => {
     defer: true,
   })
 }
+
+// Add webpack configuration here
+exports.onCreateWebpackConfig = ({ actions }) => {
+  actions.setWebpackConfig({
+    module: {
+      rules: [
+        {
+          test: /\.pdf$/,
+          use: [
+            {
+              loader: "file-loader",
+              options: {
+                name: "static_files/Nurja_Erik_Resume.pdf",
+                outputPath: 'pdfs/',
+              },
+            },
+          ],
+        },
+      ],
+    },
+  });
+};

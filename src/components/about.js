@@ -4,8 +4,9 @@ import GithubIcon from "./icons/github"
 import LinkedinIcon from "./icons/linkedin"
 import InstagramIcon from "./icons/instagram"
 import EmailIcon from "./icons/email"
-import "/Users/eriknurja/Desktop/my-website/src/styles/about.css"
-import imageSrc from "/Users/eriknurja/Desktop/my-website/src/images/icon.png"; 
+import '../styles/about.css';
+import imageSrc from '../images/icon.png';
+; 
 
 const About = () => {
   return (

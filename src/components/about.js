@@ -4,13 +4,12 @@ import GithubIcon from "./icons/github"
 import LinkedinIcon from "./icons/linkedin"
 import InstagramIcon from "./icons/instagram"
 import EmailIcon from "./icons/email"
-import '../styles/about.css';
-import imageSrc from '../images/icon.png';
-; 
-
+import "../styles/about.css"
+import imageSrc from "../images/icon.png"
 const About = () => {
   return (
-    <div className="container"
+    <div
+      className="container"
       style={{
         display: "flex",
         flexDirection: "column",
@@ -19,7 +18,15 @@ const About = () => {
         marginTop: "2rem",
       }}
     >
-        <img src={imageSrc} alt="Icon" style={{ width: "200px", marginBottom: "1rem", backgroundColor: colors.lblue }} />
+      <img
+        src={imageSrc}
+        alt="Icon"
+        style={{
+          width: "200px",
+          marginBottom: "1rem",
+          backgroundColor: colors.lblue,
+        }}
+      />
       <p
         style={{
           color: colors.yellow,
@@ -34,32 +41,31 @@ const About = () => {
           color: colors.yellow,
         }}
       >
-        I am currently working on many different Projects but still looking to
-        join a team which will help me grow in the field. I have experience
-        doing back-end development, data engineering and also mobile
-        development. You can check out my resume which is linked below.
+        I am currently working as a Conference Network Technician but also
+        working on many different projects on my own. I am open to chat for
+        different opportunites that may be interesting. Please feel free to
+        schedule a meeting by click the link below.
       </p>
       <p
         style={{
           color: colors.yellow,
         }}
       >
-        On my free time, I will be either watching AC Milan or the Celtics. I
-        love talking about AI, crypto, sports, or different books I'm reading.
-        Feel free to reach out to me via email or any of the social platforms I
-        have linked below!
+        On my free time, I will be either watching the Albanian National team ,
+        AC  Milan the Celtics or the Canadiens. I love talking about AI, crypto,
+        sports, or different books I'm reading. Feel free to reach out to me via
+        email or any of the social platforms I have linked below!
       </p>
       <div
-       style={{
-        display: "flex",
-        flexDirection: "column",
-        minHeight: "2vh",
-        backgroundColor: colors.lblue,
-        minWidth: "var(--size-content)", // Set the minimum width
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          minHeight: "2vh",
+          backgroundColor: colors.lblue,
+          minWidth: "var(--size-content)", // Set the minimum width
           margin: "0 auto",
-      }}
-      >
-      </div>
+        }}
+      ></div>
       <div>
         <a
           href="https://www.linkedin.com/in/enurja/"

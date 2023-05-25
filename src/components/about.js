@@ -57,13 +57,12 @@ const About = () => {
           color: colors.yellow,
         }}
       >
-        During my free time, I am an avid supporter of the Albanian National
-        team, AC Milan, the Celtics, and the Canadiens. Additionally, I enjoy
-        engaging in discussions about AI, cryptocurrency, and various books I'm
-        currently reading. If you would like to get in touch, please don't
-        hesitate to reach out to me via email or any of the social platforms I
-        have provided below. Thank you, and I look forward to connecting with
-        you soon!
+        During my free time, will be watching AC Milan, the Celtics, and the 
+        Canadiens. Additionally, I enjoy engaging in discussions about AI, 
+        cryptocurrency, and various books I'm  currently reading. If you would
+        like to get in touch, please don't hesitate to reach out to me via email 
+        or any of the social platforms I have provided below. Thank you, and I 
+        look forward to connecting with you soon!
       </p>
       <div
         style={{
